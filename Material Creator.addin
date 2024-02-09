@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Material Creator</Text>
+    <Description>Some description for Material Creator</Description>
+    <Assembly>Material Creator.dll</Assembly>
+    <FullClassName>Material_Creator.Command</FullClassName>
+    <ClientId>da699caa-3f94-4428-8640-9b8d3efa0e38</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Material Creator</Name>
+    <Assembly>Material Creator.dll</Assembly>
+    <FullClassName>Material_Creator.App</FullClassName>
+    <ClientId>39afa615-51c2-4dae-91e0-44066a78a818</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
